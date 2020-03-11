@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB630B702371EB6B00CB22B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB630B6F2371EB6B00CB22B5 /* AppDelegate.swift */; };
+		BB630B722371EB6B00CB22B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB630B712371EB6B00CB22B5 /* ViewController.swift */; };
+		BB630B752371EB6B00CB22B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB630B732371EB6B00CB22B5 /* Main.storyboard */; };
+		BB630B772371EB6D00CB22B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB630B762371EB6D00CB22B5 /* Assets.xcassets */; };
+		BB630B7A2371EB6D00CB22B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB630B782371EB6D00CB22B5 /* LaunchScreen.storyboard */; };
+		BB630B882371FA7200CB22B5 /* victoryff.swf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB630B852371FA7200CB22B5 /* victoryff.swf.mp3 */; };
+		BB630B892371FA7200CB22B5 /* yourewelcomeclipmoanaringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB630B862371FA7200CB22B5 /* yourewelcomeclipmoanaringtone.mp3 */; };
+		BB630B8A2371FA7200CB22B5 /* roblox-death-sound_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB630B872371FA7200CB22B5 /* roblox-death-sound_1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB630B6C2371EB6B00CB22B5 /* PointsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointsGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB630B6F2371EB6B00CB22B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB630B712371EB6B00CB22B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB630B742371EB6B00CB22B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB630B762371EB6D00CB22B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB630B792371EB6D00CB22B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB630B7B2371EB6D00CB22B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB630B852371FA7200CB22B5 /* victoryff.swf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = victoryff.swf.mp3; sourceTree = "<group>"; };
+		BB630B862371FA7200CB22B5 /* yourewelcomeclipmoanaringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yourewelcomeclipmoanaringtone.mp3; sourceTree = "<group>"; };
+		BB630B872371FA7200CB22B5 /* roblox-death-sound_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "roblox-death-sound_1.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB630B692371EB6B00CB22B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB630B632371EB6B00CB22B5 = {
+			isa = PBXGroup;
+			children = (
+				BB630B6E2371EB6B00CB22B5 /* PointsGame */,
+				BB630B6D2371EB6B00CB22B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB630B6D2371EB6B00CB22B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB630B6C2371EB6B00CB22B5 /* PointsGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB630B6E2371EB6B00CB22B5 /* PointsGame */ = {
+			isa = PBXGroup;
+			children = (
+				BB630B872371FA7200CB22B5 /* roblox-death-sound_1.mp3 */,
+				BB630B852371FA7200CB22B5 /* victoryff.swf.mp3 */,
+				BB630B862371FA7200CB22B5 /* yourewelcomeclipmoanaringtone.mp3 */,
+				BB630B6F2371EB6B00CB22B5 /* AppDelegate.swift */,
+				BB630B712371EB6B00CB22B5 /* ViewController.swift */,
+				BB630B732371EB6B00CB22B5 /* Main.storyboard */,
+				BB630B762371EB6D00CB22B5 /* Assets.xcassets */,
+				BB630B782371EB6D00CB22B5 /* LaunchScreen.storyboard */,
+				BB630B7B2371EB6D00CB22B5 /* Info.plist */,
+			);
+			path = PointsGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB630B6B2371EB6B00CB22B5 /* PointsGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB630B7E2371EB6D00CB22B5 /* Build configuration list for PBXNativeTarget "PointsGame" */;
+			buildPhases = (
+				BB630B682371EB6B00CB22B5 /* Sources */,
+				BB630B692371EB6B00CB22B5 /* Frameworks */,
+				BB630B6A2371EB6B00CB22B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PointsGame;
+			productName = "HerjanUrbas - Kovalsky";
+			productReference = BB630B6C2371EB6B00CB22B5 /* PointsGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB630B642371EB6B00CB22B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = polsl;
+				TargetAttributes = {
+					BB630B6B2371EB6B00CB22B5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = BB630B672371EB6B00CB22B5 /* Build configuration list for PBXProject "PointsGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB630B632371EB6B00CB22B5;
+			productRefGroup = BB630B6D2371EB6B00CB22B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB630B6B2371EB6B00CB22B5 /* PointsGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB630B6A2371EB6B00CB22B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB630B7A2371EB6D00CB22B5 /* LaunchScreen.storyboard in Resources */,
+				BB630B8A2371FA7200CB22B5 /* roblox-death-sound_1.mp3 in Resources */,
+				BB630B882371FA7200CB22B5 /* victoryff.swf.mp3 in Resources */,
+				BB630B772371EB6D00CB22B5 /* Assets.xcassets in Resources */,
+				BB630B752371EB6B00CB22B5 /* Main.storyboard in Resources */,
+				BB630B892371FA7200CB22B5 /* yourewelcomeclipmoanaringtone.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB630B682371EB6B00CB22B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB630B722371EB6B00CB22B5 /* ViewController.swift in Sources */,
+				BB630B702371EB6B00CB22B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB630B732371EB6B00CB22B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB630B742371EB6B00CB22B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB630B782371EB6D00CB22B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB630B792371EB6D00CB22B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB630B7C2371EB6D00CB22B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB630B7D2371EB6D00CB22B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB630B7F2371EB6D00CB22B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PointsGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.polsl.PointsGame;
+				PRODUCT_NAME = PointsGame;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB630B802371EB6D00CB22B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PointsGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.polsl.PointsGame;
+				PRODUCT_NAME = PointsGame;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB630B672371EB6B00CB22B5 /* Build configuration list for PBXProject "PointsGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB630B7C2371EB6D00CB22B5 /* Debug */,
+				BB630B7D2371EB6D00CB22B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB630B7E2371EB6D00CB22B5 /* Build configuration list for PBXNativeTarget "PointsGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB630B7F2371EB6D00CB22B5 /* Debug */,
+				BB630B802371EB6D00CB22B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB630B642371EB6B00CB22B5 /* Project object */;
+}
